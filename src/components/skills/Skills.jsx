@@ -15,14 +15,14 @@ const Skills = () => {
               
               <div>
                 <h5>HTML</h5>
-                <small className="small">Experienced</small>
+                <small className="small">Advanced</small>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
                 <h5>CSS</h5>
-                <small className="small">Intermediate</small>
+                <small className="small">Advanced</small>
               </div>
             </article>
 
@@ -43,14 +43,14 @@ const Skills = () => {
             <article className="skills__details">
               <div>
                 <h5>Tailwind</h5>
-                <small className="small">Exprienced</small>
+                <small className="small">Advanced</small>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
-                <h5>React</h5>
-                <small className="small">Exprienced</small>
+                <h5>ReactJS</h5>
+                <small className="small">Advanced</small>
               </div>
             </article>
           </div>
@@ -59,18 +59,11 @@ const Skills = () => {
         <div className="skills__backend skills__section">
           <h4>Backend Development</h4>
           <div className="skills__contents">
-            <article className="skills__details">
-              
-              <div>
-                <h5>React JS</h5>
-                <small className="small">Experienced</small>
-              </div>
-            </article>
 
             <article className="skills__details">
               <div>
                 <h5>Java</h5>
-                <small className="small">Exprienced</small>
+                <small className="small">Advanced</small>
               </div>
             </article>
 

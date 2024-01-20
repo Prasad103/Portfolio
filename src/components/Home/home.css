@@ -38,10 +38,10 @@
 .home__image {
   position: relative;
   overflow: hidden;
-  border: 10px solid lightblue;
+  border: 2%; /* Use percentage for responsive border */
   width: 300px;
-  border-top-left-radius: 30%;
-  border-top-right-radius: 30%;
+  border-top-left-radius: 15%; /* Use percentage for responsive border radius */
+  border-top-right-radius: 15%; /* Use percentage for responsive border radius */
 }
 
 .home__image img {
@@ -50,6 +50,9 @@
   transition: transform 0.3s ease-in-out;
   background: linear-gradient(var(--color-primary), transparent);
 }
+
+/* ... (rest of your CSS) */
+
 
 .home__image:hover img {
   transform: scale(1.1);
