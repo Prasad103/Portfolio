@@ -1,0 +1,98 @@
+#get-in-touch {
+  text-align: center;
+  padding: 2rem;
+  background-color: #1f1f1f;
+  padding-bottom: 80px;
+}
+
+#get-in-touch h2 {
+  color: #0d6efd;
+  position: relative;
+  display: inline-block;
+  animation: magicText 2s ease-in-out infinite;
+}
+
+#get-in-touch h2:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #0d6efd;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  animation: magicLine 2s ease-in-out infinite;
+}
+
+@keyframes magicLine {
+  0%, 100% {
+    transform: scaleX(0);
+  }
+  50% {
+    transform: scaleX(1);
+  }
+}
+
+#get-in-touch p {
+  color: lightblue;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+  text-decoration: none;
+  color: lightblue;
+}
+
+.social-links a:hover {
+  color: #0d6efd;
+}
+
+.social-links svg {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  margin: 0 20px;
+  color: lightblue;
+  position: relative;
+}
+
+.social-links a:hover::after {
+  content: attr(title);
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-links a:hover::after {
+  opacity: 1;
+}
