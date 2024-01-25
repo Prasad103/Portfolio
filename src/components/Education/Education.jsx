@@ -15,7 +15,7 @@ const Education = () => {
             <article className="education__card">
               <IoSchoolSharp className="education__icon" />
               <h5>SSC</h5>
-              <small>83.40%</small>
+              <small>"First class with Distinction"</small>
               <br />
               <small>Shivaji University</small>
               <br />
@@ -25,7 +25,7 @@ const Education = () => {
             <article className="education__card">
               <IoSchoolSharp className="education__icon" />
               <h5>HSC</h5>
-              <small>60.43%</small>
+              <small>"First Class"</small>
               <br />
               <small>Shivaji University</small>
               <br />
@@ -35,7 +35,7 @@ const Education = () => {
             <article className="education__card">
               <IoSchoolSharp className="education__icon" />
               <h5>B.Tech</h5>
-              <small>Pursuing</small>
+              <small>"Pursuing"</small>
               <br />
               <small>DBATU Lonere</small>
               <br />
