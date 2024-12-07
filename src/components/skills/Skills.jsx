@@ -8,87 +8,131 @@ const Skills = () => {
       <h2>My Technical Skills</h2>
 
       <div className="container skills__container">
-        <div className="skills__frontend skills__section">
-          <h4>Frontend Development</h4>
+
+      <div className="skills__frontend skills__section">
+          <h4>Cyber Security</h4>
           <div className="skills__contents">
             <article className="skills__details">
               
               <div>
-                <h5>HTML</h5>
-                <small className="small">Advanced</small>
+                <h5>Risk Managment</h5>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
-                <h5>CSS</h5>
-                <small className="small">Advanced</small>
+                <h5>Cyber Security Audit</h5>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
-                <h5>JavaScript</h5>
-                <small className="small">Intermidiate</small>
+                <h5>Incident Responce</h5>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
-                <h5>BootStrap</h5>
-                <small className="small">Intermediate</small>
+                <h5>Data Loss Protection(DLP)</h5>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
-                <h5>Tailwind</h5>
-                <small className="small">Advanced</small>
+                <h5>Third Party Risk Managment</h5>
+              </div>
+            </article>
+
+            
+          </div>
+        </div>
+
+
+
+
+        <div className="skills__frontend skills__section">
+          <h4>Networking & Infrastructure</h4>
+          <div className="skills__contents">
+            <article className="skills__details">
+              
+              <div>
+                <h5>Network Engineering</h5>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
-                <h5>ReactJS</h5>
-                <small className="small">Advanced</small>
+                <h5> Asset Management</h5>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <div>
+                <h5> Infrastructure Management</h5>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <div>
+                <h5>Security Education and Awareness</h5>
               </div>
             </article>
           </div>
         </div>
 
-        <div className="skills__backend skills__section">
-          <h4>Backend Development</h4>
+
+        <div className="skills__frontend skills__section">
+          <h4>Identity & Access Management (IAM)</h4>
           <div className="skills__contents">
+            <article className="skills__details">
+              
+              <div>
+                <h5>Access Control</h5>
+              </div>
+            </article>
 
             <article className="skills__details">
               <div>
+                <h5> Security Protocols</h5>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+
+        <div className="skills__frontend skills__section">
+          <h4>Web Technologies</h4>
+          <div className="skills__contents">
+            <article className="skills__details">
+              
+              <div>
                 <h5>Java</h5>
-                <small className="small">Advanced</small>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
                 <h5>Python</h5>
-                <small className="small">Intermidiate</small>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
-                <h5>PHP</h5>
-                <small className="small">Intermediate</small>
+                <h5>HTML</h5>
               </div>
             </article>
 
             <article className="skills__details">
               <div>
-                <h5>MySQL</h5>
-                <small className="small">Intermediate</small>
+                <h5>CSS</h5>
               </div>
             </article>
+            
           </div>
         </div>
+
+
       </div>
     </section>
   );
